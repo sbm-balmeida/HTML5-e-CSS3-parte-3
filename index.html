@@ -4,6 +4,8 @@
 
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style-home.css">
         <link rel="stylesheet" href="style.css">
         <title>Barbearia Alura</title>
     </head>
@@ -11,7 +13,24 @@
     <body>
 
         <header>
-            <h1 class="titulo__principal">Barbearia Alura</h1>
+            <div class="caixa">
+                <h1><img src="logo.png"></h1>
+                <nav>
+                    <ul >
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        
+                        <li>
+                            <a href="produtos.html">Produtos</a>
+                        </li>
+        
+                        <li>
+                            <a href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <img id="banner" src="banner.jpg">
@@ -29,7 +48,7 @@
         <div class="beneficios">
             <h3 class="titulo__centralizado">Benefícios</h3>
 
-            <ul>
+            <ul class="lista__beneficios">
                 <li class="itens">
                     Atendimento aos clientes
                 </li>    
@@ -49,6 +68,11 @@
 
             <img class="imagem__beneficios" src="beneficios.jpg">
         </div>
+
+        <footer>
+            <img src="logo-branco.png">
+            <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+        </footer>
     </body>
  
 </html>
